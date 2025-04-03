@@ -1,4 +1,4 @@
-/composer.lock
+# /composer.lock
 /cov
 /coverage.clover.xml
 /docs
@@ -9,4 +9,4 @@
 /phpunit.xml
 /.phpunit.cache
 /tools
-/vendor
+# /vendor

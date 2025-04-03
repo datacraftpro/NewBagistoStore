@@ -25,6 +25,8 @@ RUN composer install --no-dev --optimize-autoloader
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 RUN chmod -R 777 storage bootstrap/cache
+RUN docker-php-ext-install pdo pdo_mysql mbstring gd
+
 
 # Expose port 8080 for Cloud Run
 EXPOSE 8080

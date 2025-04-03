@@ -1,4 +1,4 @@
-/vendor
+# /vendor
 /.idea
 .phpunit.cache/
 composer.phar
